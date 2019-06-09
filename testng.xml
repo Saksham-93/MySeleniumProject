@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Guru99.FailedTestlisteners"></listener>
+<listener class-name="(default package).ExtentReporterNG"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Guru99.managerDeposit"/>
+      <class name="Guru99.managerEditCustomerDetails"/>
+      <class name="Guru99.managerFundTransfer"/>
+      <class name="Guru99.managerPositiveStatement"/>
+      <class name="Guru99.managerFundTransferNegative"/>
+      <class name="Guru99.managerDeleteAccount"/>
+      <class name="Guru99.managerWithdrawl"/>
+      <class name="Guru99.managerConfirmDeleteAccount"/>
+      <class name="Guru99.CustomerLogin"/>
+      <class name="Guru99.managerAddAccount"/>
+      <class name="Guru99.managerMiniStatement"/>
+      <class name="Guru99.managerDeleteCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
